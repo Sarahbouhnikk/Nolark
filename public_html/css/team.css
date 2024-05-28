@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 19 févr. 2024, 16:37:42
+    Author     : Pc
+*/
+
+h2{
+    text-align: center;
+    color: red;
+    font-size: 15px
+}
+section{
+     height: 1000px;
+    background: url('images/unnamed (3).jpg') no-repeat scroll center 0;
+}
+#cadre li{
+    list-style-type: none;
+}
+#cadre li a{
+    position: absolute;
+    width:95px;
+    padding-top:120px ;
+    display:block;
+}
+#membre1{
+    left: 400px;
+    top: 360px;
+}
+#membre2{
+    left: 500px;
+    top: 360px;
+}
+#membre3{
+    left: 585px;
+    top: 300px
+}
+#membre4{
+    left: 680px;
+    top:345px
+}
+#membre5{
+    left: 760px;
+    top: 360px
+}
+#cadre li a:hover{
+    border: black 1px dashed;
+}
+#cadre li a:hover.homme{
+    background-color: rgba(0,0,255,0.1);
+}
+#cadre li a:hover.femme{
+    background-color: rgba(255,0,0,0.1);
+}

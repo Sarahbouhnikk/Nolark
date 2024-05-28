@@ -1,0 +1,32 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 févr. 2024, 17:21:31
+    Author     : Pc
+*/
+h1 {
+    margin: 0 auto 0auto;
+    color:black;
+    clear:both;
+}
+#coordo{
+    float: left;
+    text-align :right;
+}
+input[type="email"]:valid ,input[type="url"]:valid {
+ color: green;
+}
+input[type="email"]:invalid,input[type="url"]:invalid {
+ color: red;
+}
+#legend{
+    float: left 
+}
+fieldset{
+    text-align : left;
+}
+legend{
+    text-align: left;
+}
